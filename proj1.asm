@@ -70,7 +70,7 @@ Entry:      MOVB  #$FF, DDRP  ; RGB LED: pins 3, 4, 6
             BRA negate
 
 
-negate:     NEG out
+negate:     NEG out ;Ngeate the output to get 2's compliment.
             MOVB  #$FF, DDRP  ; RGB LED: pins 3, 4, 6
             MOVB  #BF, PTP    ; green light on
 
