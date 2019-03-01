@@ -1,9 +1,9 @@
 ; variable/data section
 MY_EXTENDED_RAM: SECTION
 ; Insert here your data definition.
-sum ds.b 1
-N ds.b 1
-values ds.b 6
+sum ds.b 1 ;stores sum
+N ds.b 1 ;store value of N
+values ds.b 6 ;6 byte space for values
 
 ; code section
 MyCode:     SECTION
