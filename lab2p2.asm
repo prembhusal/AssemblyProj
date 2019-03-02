@@ -1,3 +1,4 @@
+;Program that takes N values and sums it, if sum < 99 keep the red light on , else turn off the light after 2 sec
 ; variable/data section
 MY_EXTENDED_RAM: SECTION
 ; Insert here your data definition.
